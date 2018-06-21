@@ -109,9 +109,9 @@ body {
 
 .aboutus{
 	margin-top: 60px;
-	
 	width: 100%;
 }
+
 
 .about-left h1{
 	font-size: 28px;
@@ -125,11 +125,15 @@ body {
 	margin-bottom: 15px;
 }
 
+.about-left p {
+	font-family: 'Roboto', sans-serif;
+}
+
 .aboutus img{
 	width: 100%;
 }
 
-.aboutus a{
+.about-left a{
 	text-transform: uppercase;
 	border-radius: 0;
 	min-width: 150px;
@@ -137,15 +141,49 @@ body {
 	color: #fff;
 }
 
-.about-feature{
-	border-top: solid 1px #ECF0F1;
-	margin-top: 30px;
+.counter-section{
+	background-image: url(../img/banner6.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-position: center; 
+	position: relative;
+	margin-top: 60px;
+	padding: 40px 0;
 }
 
-.feature-box{
-	display: inline-block;
-	padding-top: 20px;
+.counter-section:before{
+	position: absolute;
+	content: '';
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(0,0,0,0.5);
 }
+
+.counter-box{
+	color: #fff;
+	text-align: center;
+
+}
+
+..counter-box h6{
+	margin-bottom: 0 !important;
+}
+
+.counter-data i{
+	font-size: 50px;
+}
+
+.count-value{
+	font-size: 55px;
+}
+
+
 
 
 
